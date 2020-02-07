@@ -42,8 +42,8 @@ nav a:hover{
   background: white;
   left: 0;
   padding: 6px;
-  /* -webkit-transition: top 1s ease-out;
-  transition: top 1s ease-out; */
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
   z-index: 1;
   position: absolute;
   margin-top: -40px;
@@ -115,7 +115,7 @@ header p{
 
 .about, .method, .clients, .contact{
   grid-column: 2 / span 1;
-  grid-row: 3 / 4 / 5 / 6 / 7;
+  /* grid-row: 3 / 4 / 5 / 6 / 7; */
 }
 
 .about-image, .method-image, .clients-image, .contact-image{
@@ -145,6 +145,7 @@ header p{
   padding: 30px;
   align-self: center;
   vertical-align: middle;
+
 }
 
 
